@@ -24,6 +24,7 @@ MESSAGES = {} # A dictionary that contains message parts
 
 app = Flask(__name__)
 
+
 # creating flask route for type argument
 @app.route('/', methods=['GET', 'POST'])
 def main_handler():
